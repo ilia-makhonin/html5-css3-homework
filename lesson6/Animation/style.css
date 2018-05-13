@@ -1,0 +1,272 @@
+body {
+	margin: 30px;
+	background: azure;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.img-up {
+	position: relative;
+	animation-name: pictur;
+	animation-duration: 1.5s;
+	animation-timing-function: linear; 
+	animation-fill-mode: forwards;
+}
+
+@keyframes pictur {
+	from {opacity: 0; left: 0;}
+	25% {opacity: 0.25; left: 5%;}
+	50% {opacity: 0.5; left: 10%;}
+	75% {opacity: 0.75; left: 15%;}
+	to {opacity: 1; left: 20%;}
+}
+
+.block {
+	height: 400px;
+	background: rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-block, .center-block, .right-block {
+	width: 300px;
+	height: 300px;
+	background: lightgreen;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+}
+
+.left-block {
+	position: relative;
+	animation-name: pictur2;
+	animation-duration: 2s;
+	animation-timing-function: linear; 
+	animation-fill-mode: forwards;
+	z-index: 2;
+} 
+
+.center-block {
+	position: relative;
+	animation-name: pictur3;
+	animation-duration: 2s;
+	animation-timing-function: linear; 
+	animation-fill-mode: forwards;
+	z-index: 3;
+} 
+
+.right-block {
+	position: relative;
+	animation-name: pictur1;
+	animation-duration: 2s;
+	animation-timing-function: linear; 
+	animation-fill-mode: forwards;
+	z-index: 1;
+}
+
+h2 {
+	color: gray;
+}
+
+@keyframes pictur1 {
+	from {opacity: 0; left: -300px;}
+	25% {opacity: 0.25; left: -200px;}
+	50% {opacity: 0.5; left: -100px;}
+	75% {opacity: 0.75; left: 0;}
+	to {opacity: 1; left: 100px;}
+}
+
+@keyframes pictur2 {
+	from {opacity: 0; right: -300px;}
+	25% {opacity: 0.25; right: -200px;}
+	50% {opacity: 0.5; right: -100px;}
+	75% {opacity: 0.75; right: 0;}
+	to {opacity: 1; right: 100px;}
+}
+
+@keyframes pictur3 {
+	from {opacity: 0;}
+	25% {opacity: 0.25;}
+	50% {opacity: 0.5;}
+	75% {opacity: 0.75;}
+	to {opacity: 1;}
+}
+
+.head-menu {
+	margin: 25px 0;
+	text-align: center;
+	color: black;
+}
+
+.icons {
+	height: 200px;
+	background: sandybrown;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.icons a {
+	text-decoration: none;
+}
+
+.icons img {
+	width: 80px;
+	height: 80px;
+}
+
+.icons img:hover {
+	transform: scale(1.5, 1.5) rotate(50deg);
+}
+
+.circle {
+	margin: 50px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: aqua;
+	position: relative;
+	animation-name: roll-z;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+.roll1, .roll2 {
+	animation-name: roll-z;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+.roll1 {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 55px;
+}
+
+.roll2 {
+	width: 90px;
+	height: 90px;
+	left: 110px;
+	position: absolute;
+	top: 55px;
+}
+
+.circle:hover {
+	animation: pause;
+}
+
+@keyframes roll-z {
+	from {
+		transform: rotate(0deg);
+	}
+
+	25% {
+		transform: rotate(90deg);
+	}
+
+	50% {
+		transform: rotate(180deg);
+	}
+
+	75% {
+		transform: rotate(270deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.slider {
+	width: 1152px;
+	height: 864px;
+	position: relative;
+	margin: 30px auto;
+	background: rgba(90, 13, 172, 0.3);
+	border: 5px solid rgba(90, 13, 172, 0.3);
+	top: 50px;
+}
+
+.slider-img-1 {
+	position: absolute;
+	animation-name: animationslider;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	animation-delay: 24s;
+	opacity: 0;
+	z-index: 5;
+}
+
+.slider-img-2 {
+	position: absolute;
+	animation-name: animationslider;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	animation-delay: 18s;
+	opacity: 0;
+	z-index: 4;
+}
+
+.slider-img-3 {
+	position: absolute;
+	animation-name: animationslider;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	animation-delay: 12s;
+	opacity: 0;
+	z-index: 3;
+}
+
+.slider-img-4 {
+	position: absolute;
+	animation-name: animationslider;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	animation-delay: 6s;
+	opacity: 0;
+	z-index: 2;
+}
+
+.slider-img-5 {
+	position: absolute;
+	animation-name: animationslider;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	opacity: 0;
+	z-index: 1;
+}
+
+@keyframes animationslider {
+	from {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+		transform: rotate(0);
+	}
+
+	80% {
+		opacity: 1;
+		transform: rotate(8deg);
+	}
+
+	to {
+		opacity: 0;
+		transform: rotate(0);
+	}
+}
+

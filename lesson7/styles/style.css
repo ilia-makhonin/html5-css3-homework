@@ -1,0 +1,255 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/back_body.jpg") repeat-y;
+}
+
+.header {
+    width: 1290px;
+    height: 150px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    background: lightgray;
+}
+
+.logo {
+    background: url("../img/pic.jpg") no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.navigation__list-punckt {
+    padding-left: 20px;
+    display: inline;
+}
+
+.navigation__list-link  {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+
+.navigation__list-link:hover {
+    color: brown;
+}
+
+main {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.article {
+    width: 70%;
+}
+
+.article__block {
+    width: 100%;
+    min-height: 300px;
+}
+
+.article__block-images {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.header-article {
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.paragraph-article {
+    width: 90%;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.article__block-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: darkgoldenrod;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.more-tag {
+    width: 30%;
+    max-height: 350px;
+    background: burlywood;
+}
+
+.more-tag__header {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-style: oblique;
+    margin-top: 20px;
+}
+
+.more-tag__list {
+    margin-top: 15px;
+    list-style: outside upper-roman;
+}
+
+.more-tag__list-punckt {
+    margin-bottom: 10px;
+}
+
+.more-tag__list-link {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.more-tag__list-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 1290px;
+    height: 150px;
+    border-top: 1px solid black;
+    margin: 0 auto;
+    background: lightgray;
+}
+
+.copyright {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.social-icon {
+    margin: 0 80px;
+}
+
+.social-icon__link {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.header-article {
+    font-size: 28px;
+}
+
+.article__figure-bloc {
+    margin: 20px 0;
+}
+
+.article__figure-figcaption {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.article__figure-image {
+    width: 500px;
+    height: 500px;
+}
+
+.main__book-header {
+    font-size: 25px;
+    padding: 20px 0;
+    width: 80%;
+    background: lightblue;
+    text-align: center;
+}
+
+.section-book {
+    background: darkgray;
+    width: 80%;
+    min-height: 350px;
+}
+
+.section-book__img {
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.section-book__header {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section-book__part {
+    width: 70%;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header_home-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article_art-style {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.main_hom-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_article-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_book-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.article__block_home-style {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: lightblue;
+}
+
+.more-tag_home-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-book_style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.section-book_style:last-child {
+    border-bottom: none;
+}
+
+.footer_style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}

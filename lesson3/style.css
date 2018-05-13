@@ -1,0 +1,248 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-site {
+  width: 1280px;
+  margin: 0 auto;
+}
+.radius {
+  border-radius: 5px;
+}
+.h3-team-company {
+  margin-top: 0px;
+}
+.h2-style {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+header,
+main,
+footer {
+  width: 1280px;
+  margin: 0 auto;
+}
+body {
+  background-color: #000000;
+  margin-top: 5px;
+}
+nav {
+  background-color: #278474;
+  padding: 3px 0 3px 0;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin-right: 35px;
+  font-size: 20px;
+}
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 5px 7px 5px;
+}
+nav li a:hover {
+  background-color: #68D8C5;
+  border-radius: 5px;
+}
+main {
+  background-color: #0bb094;
+}
+h1 {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 15px;
+}
+.video-container {
+  margin-left: 20px;
+  width: 1240px;
+  height: 697px;
+  position: relative;
+}
+.video-container .full {
+  width: 1240px;
+  height: 697px;
+  position: absolute;
+  z-index: 1;
+}
+.video-container .poster {
+  width: 1240px;
+  height: 697px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 245px;
+  position: absolute;
+  z-index: 2;
+}
+.video-container .poster h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.video-container .poster p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.our-team {
+  background-color: #68d8c5;
+}
+.our-team h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.our-team .team1 {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: #68d8c5;
+}
+.our-team .team2 {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: #68d8c5;
+}
+.colleague {
+  height: 130px;
+  background-color: #0bb094;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.colleague h3 {
+  margin-top: 0px;
+  padding-top: 5px;
+}
+.userphoto {
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-color: gray;
+  margin: 10px 10px 0 3px;
+}
+.your-product {
+  background-color: #40d8be;
+  width: 1280px;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  margin-top: 325px;
+}
+.your-product h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.your-product .container-product-now {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-product .container-product-now .product {
+  width: 400px;
+  background-color: #047260;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  padding: 0 5px;
+  color: #fff;
+}
+.your-product .container-product-now .product article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.your-product .container-product-now .product article .picture {
+  width: 170px;
+  height: 110px;
+  background-color: gray;
+  margin-top: 10px;
+}
+.your-product .container-product-now .product article h3 {
+  margin-bottom: 0;
+}
+.your-product .container-product-now .product article a {
+  display: block;
+  text-decoration: none;
+  width: 200px;
+  background-color: #fff;
+  color: #047260;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.your-product .container-product-now .product article a:hover {
+  color: black;
+}
+footer {
+  background-color: #047260;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h2 {
+  margin-top: 0;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+footer form {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer form input {
+  width: 620px;
+  height: 30px;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+footer form textarea {
+  width: 620px;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+footer form button {
+  width: 210px;
+  padding: 5px 0;
+  font-size: 16px;
+  color: #047260;
+  font-weight: 600;
+  border-radius: 5px;
+}
+footer .copyr {
+  width: 1240px;
+  text-align: center;
+  background-color: #CCCCCC;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  padding: 5px 0;
+}
